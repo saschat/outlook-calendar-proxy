@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*).ics",
-      "dest": "/api/calendar/$1"
+      "dest": "/api/$1"
     }
   ]
 }
