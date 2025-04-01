@@ -15,5 +15,8 @@
   "homepage": "https://github.com/saschat/outlook-calendar-proxy#readme",
   "dependencies": {
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "next": "^15.2.4"
   }
 }
