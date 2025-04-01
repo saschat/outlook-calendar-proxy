@@ -33,6 +33,7 @@ const windowsToIana = {
 };
 
 export default async function handler(req, res) {
+  console.log("Request hit with calendarId:", req.query.calendarId);
   const { calendarId } = req.query;
   const calendarKey = Array.isArray(calendarId)
     ? calendarId.join("/")

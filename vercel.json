@@ -1,0 +1,9 @@
+{
+  "builds": [{ "src": "pages/api/**/*.js", "use": "@vercel/node" }],
+  "routes": [
+    {
+      "src": "/(.*).ics",
+      "dest": "/api/calendar/$1"
+    }
+  ]
+}
