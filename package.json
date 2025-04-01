@@ -1,0 +1,19 @@
+{
+  "name": "outlook-calendar-proxy",
+  "version": "0.0.1",
+  "description": "Convert Windows timezone format to IANA for Outlook's shared calendar links",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saschat/outlook-calendar-proxy.git"
+  },
+  "author": "Sascha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saschat/outlook-calendar-proxy/issues"
+  },
+  "homepage": "https://github.com/saschat/outlook-calendar-proxy#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
